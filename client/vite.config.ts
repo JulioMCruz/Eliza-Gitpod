@@ -27,4 +27,9 @@ export default defineConfig({
             "@": "/src",
         },
     },
+    server: {
+        allowedHosts: [
+          '5173-juliomcruz-elizagitpod-o3pssuvgylx.ws-us117.gitpod.io',
+        ],
+    }
 });
